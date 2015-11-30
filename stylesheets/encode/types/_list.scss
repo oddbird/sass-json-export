@@ -4,7 +4,7 @@
 /// @return {String} - encoded list
 /// @require {function} json-encore
 @function _json-encode--list($list) {
-  $str: "";
+  $str: '';
 
   @each $item in $list {
     $str: $str + ', ' + json-encode($item);

@@ -1,9 +1,9 @@
-@import "bootcamp";
-@import "sass-json-export";
+@import 'bootcamp';
+@import 'sass-json-export';
 
 @include runner-start;
 
 // Encoder
-@import "encode/index";
+@import 'encode/index';
 
 @include runner-end;

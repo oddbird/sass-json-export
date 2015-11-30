@@ -13,9 +13,9 @@
 @function json-encode($value) {
   $type: type-of($value);
 
-  @if function_exists('_json-encode--#{$type}') {
+  @if function-exists('_json-encode--#{$type}') {
     @return call('_json-encode--#{$type}', $value);
   }
 
-  @error "Unknown type for #{$value} (#{$type}).";
+  @error 'Unknown type for #{$value} (#{$type}).';
 }

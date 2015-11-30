@@ -56,4 +56,5 @@ module.exports = function(grunt) {
   // Tasks
   grunt.registerTask('test', ['sasslint', 'sass', 'bootcamp']);
   grunt.registerTask('dev', ['test', 'watch']);
+  grunt.registerTask('default', ['test']);
 };
