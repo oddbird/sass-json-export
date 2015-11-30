@@ -2,6 +2,12 @@
 
 `sass-json-export` allows you to export your Sass data structures as JSON.
 
+It is based on Hugo Giraudel's
+[SassyJSON](https://github.com/HugoGiraudel/SassyJSON), which is
+[no longer maintained](https://github.com/HugoGiraudel/SassyJSON/issues/91). It
+is simplified to include only the JSON exporter from SassyJSON, and not the
+(much more complex) JSON parser.
+
 ## Install
 
 sass-json-export is available on [npm](https://npmjs.org/).
