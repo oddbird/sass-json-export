@@ -1,6 +1,7 @@
-node_modules
-tmp
-.sass-cache
+*.DS_Store
+*~
+node_modules/
+tmp/
+.sass-cache/
+.cache/
 npm-debug.log
-.sassdoc
-sassdocify
