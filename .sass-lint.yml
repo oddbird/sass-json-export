@@ -1,0 +1,7 @@
+# See https://github.com/sasstools/sass-lint/tree/develop/docs/rules
+# ------------------------------------------------------------------
+
+# File Options
+files:
+  ignore:
+    - 'node_modules/**/*.*'

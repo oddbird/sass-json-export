@@ -8,7 +8,7 @@
 
   @include it("should return encode a number to number type") {
     @include should(expect(type-of(_json-encode--number(42))), to(equal('number')));
-    @include should(expect(type-of(_json-encode--number(13.37))), to(equal('number')));    
+    @include should(expect(type-of(_json-encode--number(13.37))), to(equal('number')));
     @include should(expect(type-of(_json-encode--number(-42))), to(equal('number')));
     @include should(expect(type-of(_json-encode--number(-13.37))), to(equal('number')));
   }
