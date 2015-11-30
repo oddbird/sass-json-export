@@ -1,4 +1,4 @@
-# sass-json-export [![NPM version](https://badge.fury.io/js/sass-json-export.png)](http://badge.fury.io/js/sass-json-export) [![Build Status](https://travis-ci.org/oddbird/sass-json-export.png?branch=master)](https://travis-ci.org/oddbird/sass-json-export)
+# sass-json-export [![NPM version](https://badge.fury.io/js/sass-json-export.png)](http://badge.fury.io/js/sass-json-export) [![Circle CI](https://circleci.com/gh/oddbird/sass-json-export.svg?style=svg)](https://circleci.com/gh/oddbird/sass-json-export)
 
 `sass-json-export` allows you to export your Sass data structures as JSON.
 
