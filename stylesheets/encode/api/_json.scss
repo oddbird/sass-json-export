@@ -12,9 +12,14 @@
 /// @require {function} _json-encode--bool
 @function json-encode($value) {
   $type: type-of($value);
+  $function: '_json-encode--#{$type}';
+
+  @if function-exists('get-function') {
+    $function: get-function($function);
+  }
 
   @if function-exists('_json-encode--#{$type}') {
-    @return call('_json-encode--#{$type}', $value);
+    @return call($function, $value);
   }
 
   @error 'Unknown type for #{$value} (#{$type}).';
