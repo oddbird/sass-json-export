@@ -1,4 +1,5 @@
 # Changelog
+* `2.0.1`: Resolve Sass deprecation warnings (Sass 3.5+) -- [#3](https://github.com/oddbird/sass-json-export/pull/3).
 * `2.0.0`: Removed json-decode and changed name to `sass-json-export`.
 * `1.1.8`: Solved an issue with tabs
 * `1.1.7`: Included cosmetic changes made after linting with [scss-lint](https://github.com/causes/scss-lint)
