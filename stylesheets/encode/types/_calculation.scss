@@ -1,0 +1,8 @@
+/// Encode a calculation to JSON
+/// @access private
+/// @param {String} $string - string to be encoded
+/// @return {String} - encoded string
+/// @require {function} _proof-quote
+@function _json-encode--calculation($calculation) {
+  @return _proof-quote($calculation);
+}

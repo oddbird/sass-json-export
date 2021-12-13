@@ -1,0 +1,6 @@
+@include describe('The _json-encode--calculation function') {
+  @include it('should return a quoted calculation') {
+    @include should(expect(_json-encode--calculation('calc(100vw - 10px)')), to(equal('"calc(100vw - 10px)"')));
+    @include should(expect(_json-encode--calculation('clamp(100px, 100vw, 1000px)')), to(equal('"clamp(100px, 100vw, 1000px)"')));
+  }
+}
